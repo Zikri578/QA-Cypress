@@ -1,0 +1,16 @@
+{
+  "name": "pekan2_sanbercode_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --spec 'cypress/e2e/3-webtesting/*'",
+    "login": "npx cypress run --spec 'cypress/e2e/3-webtesting/Login.cy.js'",
+    "dashboard": "npx cypress run --spec 'cypress/e2e/3-webtesting/Dashboard.cy.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  }
+}
